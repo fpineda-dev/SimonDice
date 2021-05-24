@@ -1,0 +1,65 @@
+[
+
+
+            {
+                "IdQuestion": 1,
+                "IdNivel": 1,
+                "Qustion": "Where´s the Antelope Canyon",
+                "Answer" : "in the American Southwest"
+            },
+
+
+            {
+                "IdQuestion": 2,
+                "IdNivel": 1,
+                "Qustion": "How does it traslate the Navejo name Antelope Canyon",
+                "Answer" : "it´s Navajo name the place where runs through rocks"
+            },
+
+
+            {
+                "IdQuestion": 3,
+                "IdNivel": 2,
+                "Qustion": "Which is the Continent separated for water of Madagascar",
+                "Answer" : "the Continent Africa"
+
+            },
+
+            {
+                "IdQuestion": 4,
+                "IdNivel": 2,
+                "Qustion": "The future with be going to, create a sentence using word Madagascar",
+                "Answer" : "I´m going to"
+
+            },
+
+            {
+                "IdQuestion": 5,
+                "IdNivel": 3,
+                "Qustion": "Where´s the Boulder Beach",
+                "Answer" : "Located on the False Bay Coastline, south africa"
+
+            },
+
+            {
+                "IdQuestion": 6,
+                "IdNivel": 3,
+                "Qustion": "Contable and Uncontable, write the correct noun, ¿there is ____ water in Boulder Beach?",
+                "Answer" : "much"
+            },
+
+            {
+                "IdQuestion": 7,
+                "IdNivel": 4,
+                "Qustion": "¿What is name of the place where create a dreamy ilusion of infinity?",
+                "Answer" : "Salar de Uyuni"
+            },
+
+            {
+                "IdQuestion": 8,
+                "IdNivel": 4,
+                "Qustion": "Adverbs of frequency, do you ____ has a dreamy ilusion infinity, ",
+                "Answer" : "ever"
+            }
+
+        ]

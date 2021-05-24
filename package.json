@@ -1,0 +1,20 @@
+{
+  "homepage": "http://{username}.github.io/repo_name",
+  "name": "Juego-Examen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Play.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server"
+  },
+  "keywords": [
+    "English"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^3.2.0",
+    "live-server": "^1.2.1"
+  }
+}

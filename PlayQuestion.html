@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Simon Dice</title>
+    <style>
+      body {
+        margin: 0;
+        background: #dedede;
+        display: flex;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .gameboard {
+        height: 100vh;
+        width: 100vh;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 0 auto;
+        max-height: 60vh;
+        max-width: 60vh;
+      }
+
+      .color {
+        width: 50%;
+        height: 50%;
+        display: inline-block;
+      }
+
+      .left {
+        float: left;
+      }
+
+      .right {
+        float: left;
+      }
+
+      .celeste {
+        background: #22a6b3;
+      }
+
+      .celeste.light {
+        background: #7ed6df;
+      }
+
+      .violeta {
+        background: #be2edd;
+      }
+
+      .violeta.light {
+        background: #e056fd;
+      }
+
+      .naranja {
+        background: #f0932b;
+      }
+
+      .naranja.light {
+        background: #ffbe76;
+      }
+
+      .verde {
+        background: #6ab04c;
+      }
+
+      .verde.light {
+        background: #badc58;
+      }
+
+      .btn-start {
+        width: 400px;
+        height: 100px;
+        background: #ecf0f1;
+        color: #2c3e50;
+        font-size: 2.5rem;
+        position: absolute;
+        top: calc(50% - 50px);
+        left: calc(50% - 200px);
+      }
+
+      .hide {
+        display: none;
+      }
+
+      * {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .Level {        
+        position: absolute;
+        margin-bottom: 48em;        
+        width: 100%;
+        height: 50px;
+        /* margin-left: 46em; */
+        display: flex;
+      }
+
+      .Level_title{
+        padding-left: 27em;
+        padding-top: 21px;
+      
+      }
+ 
+    </style>
+  </head>
+  <body>
+    <div class="Level" style="background-color: chartreuse;">
+      <div class="Level_title">
+        <label for="" class="Level_title-text">Choose a Level</label>
+        &nbsp;
+        <input type="checkbox" id="rbUno"  value="1">
+        <label for="lbluno">1</label> &nbsp;
+        <input type="checkbox" id="rbDos" value="2">
+        <label for="lbldos">2</label>
+         &nbsp;
+        <input type="checkbox" id="rbTres" value="3">
+        <label for="lbltres">3</label>
+        &nbsp;
+        <input type="checkbox" id="rbCuatro" value="4">
+        <label for="lblcuatro">4</label>
+        <input type="hidden" id="hiddenVal">
+       
+      </div>
+      
+      
+    </div>
+
+    <div class="gameboard">
+      <div id="celeste" class="color celeste left" data-color="celeste"></div>
+      <div id="violeta" class="color violeta right" data-color="violeta"></div>
+      <div id="naranja" class="color naranja left" data-color="naranja"></div>
+      <div id="verde" class="color verde right" data-color="verde"></div>
+      <button id="btnEmpezar" class="btn-start" onclick="empezarJuego()">Start!</button>
+    </div>
+    
+    <script  src="SelectionLevel.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>    
+  </body>
+</html>
